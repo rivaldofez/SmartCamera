@@ -13,6 +13,7 @@
 		7E3D0DBD2832B64600F4F80A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D0DBB2832B64600F4F80A /* Main.storyboard */; };
 		7E3D0DBF2832B64700F4F80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D0DBE2832B64700F4F80A /* Assets.xcassets */; };
 		7E3D0DC22832B64700F4F80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3D0DC02832B64700F4F80A /* LaunchScreen.storyboard */; };
+		7E3D0DCA2832BC5600F4F80A /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E3D0DC92832BC5500F4F80A /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E3D0DBE2832B64700F4F80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3D0DC12832B64700F4F80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3D0DC32832B64700F4F80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3D0DC92832BC5500F4F80A /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7E3D0DB52832B64600F4F80A /* AppDelegate.swift */,
 				7E3D0DB72832B64600F4F80A /* SceneDelegate.swift */,
 				7E3D0DB92832B64600F4F80A /* ViewController.swift */,
+				7E3D0DC92832BC5500F4F80A /* SqueezeNet.mlmodel */,
 				7E3D0DBB2832B64600F4F80A /* Main.storyboard */,
 				7E3D0DBE2832B64700F4F80A /* Assets.xcassets */,
 				7E3D0DC02832B64700F4F80A /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				7E3D0DBA2832B64600F4F80A /* ViewController.swift in Sources */,
 				7E3D0DB62832B64600F4F80A /* AppDelegate.swift in Sources */,
 				7E3D0DB82832B64600F4F80A /* SceneDelegate.swift in Sources */,
+				7E3D0DCA2832BC5600F4F80A /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
