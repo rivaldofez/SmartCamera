@@ -39,9 +39,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 //        VNImageRequestHandler(cgImage: <#T##CGImage#>, options: [:]).perform(<#T##requests: [VNRequest]##[VNRequest]#>)
     }
     
-//    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-//        print("Camera was ")
-//    }
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
+        print("Camera was able to capture a frame", Date())
+    }
 
 
 }
